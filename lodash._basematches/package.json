@@ -1,7 +1,7 @@
 {
-  "name": "lodash._baseflatten",
+  "name": "lodash._basematches",
   "version": "3.1.0",
-  "description": "The modern build of lodash’s internal `baseFlatten` as a module.",
+  "description": "The modern build of lodash’s internal `baseMatches` as a module.",
   "homepage": "https://lodash.com/",
   "icon": "https://lodash.com/icon.svg",
   "license": "MIT",
@@ -16,7 +16,7 @@
   "repository": "lodash/lodash",
   "scripts": { "test": "echo \"See https://travis-ci.org/lodash/lodash-cli for testing details.\"" },
   "dependencies": {
-    "lodash.isarguments": "^3.0.0",
-    "lodash.isarray": "^3.0.0"
+    "lodash._baseisequal": "^3.0.0",
+    "lodash.keys": "^3.0.0"
   }
 }
