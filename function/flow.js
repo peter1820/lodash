@@ -16,15 +16,11 @@ var FUNC_ERROR_TEXT = 'Expected a function';
  * @returns {Function} Returns the new function.
  * @example
  *
- * function add(x, y) {
- *   return x + y;
- * }
- *
  * function square(n) {
  *   return n * n;
  * }
  *
- * var addSquare = _.flow(add, square);
+ * var addSquare = _.flow(_.add, square);
  * addSquare(1, 2);
  * // => 9
  */
