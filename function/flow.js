@@ -15,15 +15,11 @@ define(['../internal/arrayEvery', '../internal/baseIsFunction'], function(arrayE
    * @returns {Function} Returns the new function.
    * @example
    *
-   * function add(x, y) {
-   *   return x + y;
-   * }
-   *
    * function square(n) {
    *   return n * n;
    * }
    *
-   * var addSquare = _.flow(add, square);
+   * var addSquare = _.flow(_.add, square);
    * addSquare(1, 2);
    * // => 9
    */
